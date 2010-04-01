@@ -58,4 +58,3 @@ class Text_Wiki_Parse_Raw extends Text_Wiki_Parse {
         );
     }
 }
-?>

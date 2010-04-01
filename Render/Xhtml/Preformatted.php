@@ -41,7 +41,6 @@ class Text_Wiki_Render_Xhtml_Preformatted extends Text_Wiki_Render {
     function token($options)
     {
         $text = $this->textEncode($options['text']);
-        return '<pre>'.$text.'</pre>';
+        return "<pre>".$text."</pre>\n\n";
     }
 }
-?>

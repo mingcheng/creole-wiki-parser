@@ -18,8 +18,6 @@
 
 
 class Text_Wiki_Parse_Tighten extends Text_Wiki_Parse {
-
-
     /**
      *
      * Apply tightening directly to the source text.
@@ -34,4 +32,3 @@ class Text_Wiki_Parse_Tighten extends Text_Wiki_Parse {
             $this->wiki->source);
     }
 }
-?>

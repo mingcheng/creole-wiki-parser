@@ -37,7 +37,6 @@ class Text_Wiki_Parse_Newline extends Text_Wiki_Parse {
     //var $regex = '/(?<!\n)\n(?![\n\#\=\|\-\>\:]|\*[^\*\#]|\*+ )/m';
     var $regex = '/(?<!\n)\n(?!\n|\#|\*|\=|\||\>|\:|\!|\-\D)/m';
 
-
     /**
      *
      * Generates a replacement token for the matched text.
@@ -56,5 +55,3 @@ class Text_Wiki_Parse_Newline extends Text_Wiki_Parse {
         return ' '; // $this->wiki->addToken($this->rule);
     }
 }
-
-?>

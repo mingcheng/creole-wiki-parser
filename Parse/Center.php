@@ -75,4 +75,3 @@ class Text_Wiki_Parse_Center extends Text_Wiki_Parse {
         return $start . trim($matches[1]) . $end . "\n\n";
     }
 }
-?>

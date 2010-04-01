@@ -55,4 +55,3 @@ class Text_Wiki_Parse_Horiz extends Text_Wiki_Parse {
         return "\n" . $this->wiki->addToken($this->rule) . "\n";
     }
 }
-?>

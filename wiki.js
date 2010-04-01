@@ -8,7 +8,7 @@ var callback = (function () {
                 try {
                     var json = eval('(' + req.responseText + ')');
                     if (!json.error && json.response) {
-                        console.info(json)
+                        //console.info(json)
                         this.show(json.response);
                     }
                 } catch(e) {
@@ -21,17 +21,17 @@ var callback = (function () {
         },
 
         show: function (data) {
-            console.info(data);
+            //console.info(data);
             var vessel = Dom.get('result');
             if (!vessel) {
-                var vessel = document.createElement('textarea');
+                var vessel = document.createElement('div');
                 vessel.id = 'result';
                 Event.on(vessel, 'click', function(e){
                     this.select();
                 });
                 Dom.insertAfter(vessel, 'wiki');
             }
-            vessel.value = data;
+            vessel.innerHTML = data;
         },
 
         error: function (message) {

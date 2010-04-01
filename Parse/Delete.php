@@ -75,4 +75,3 @@ class Text_Wiki_Parse_Delete extends Text_Wiki_Parse {
         return $start . $text . $end;
     }
 }
-?>

@@ -94,4 +94,3 @@ class Text_Wiki_Parse_Heading extends Text_Wiki_Parse {
         return $start . trim($matches[2]) . $end . "\n\n";
     }
 }
-?>

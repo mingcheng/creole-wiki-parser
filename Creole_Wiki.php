@@ -48,6 +48,7 @@ class Creole_Wiki {
         'Break',
         'Raw',
 		'Box',
+        'Delete',
         //'Footnote',
         'Table',
         'Newline',
@@ -635,13 +636,9 @@ class Creole_Wiki {
      * Set format configuration for a specific rule and key.
      *
      * @access public
-     *
      * @param string $format The format to set config for.
-     *
      * @param string $key The config key within the format.
-     *
      * @param string $val The config value for the key.
-     *
      * @return void
      *
      */
@@ -1596,4 +1593,3 @@ class Creole_Wiki {
         return $text;
     }
 }
-?>

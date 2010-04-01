@@ -130,4 +130,3 @@ class Text_Wiki_Render_Xhtml_Code extends Text_Wiki_Render {
         return "\n$text\n\n";
     }
 }
-?>
