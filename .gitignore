@@ -1,0 +1,9 @@
+_vimfavourites
+*.iml
+.idea
+.svn
+*~
+*.diff
+*.patch
+.DS_Store
+Thumb.db
