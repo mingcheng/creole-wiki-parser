@@ -1,7 +1,14 @@
+= Bye Creole, This project is discontinued.
+
 = Creole Wiki Parser
 
-This package is fork from http://pear.php.net/package/Text_Wiki_Creole/
+This script is fork from http://pear.php.net/package/Text_Wiki_Creole/ , with
+muti-charset support and more.
 
 == How to use?
 
+{{{
+$parser = new Creole_Wiki;
+echo $parser->transform($source);
+}}}
 
